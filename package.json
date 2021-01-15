@@ -1,6 +1,6 @@
 {
   "name": "et-plus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Theme generator cli tool for ElementPlus",
   "main": "./lib/index.js",
   "author": "AutoFt",
