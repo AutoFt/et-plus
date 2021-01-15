@@ -1,12 +1,15 @@
 {
-  "name": "element-theme-plus",
+  "name": "et-plus",
   "version": "1.0.0",
   "description": "Theme generator cli tool for ElementPlus",
   "main": "./lib/index.js",
   "author": "AutoFt",
   "license": "MIT",
   "private": false,
-  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:AutoFt/element-theme-plus-ts.git"
+  },
   "dependencies": {
     "commander": "^6.2.1",
     "gulp": "^4.0.2",

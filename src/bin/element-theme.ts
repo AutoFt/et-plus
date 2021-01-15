@@ -23,7 +23,7 @@ const program = version(packageJson.version)
 check();
 
 if (program.init) {
-  init(program.init);
+  init(program.init).then(() => process.exit(1));
 }
 
 program.watch ? watch(opts) : (run(opts) as () => void)();
