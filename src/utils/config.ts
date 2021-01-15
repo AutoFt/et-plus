@@ -25,7 +25,7 @@ const config: IConfig = Object.assign(
     elementTheme: "element-plus/packages/theme-chalk/",
     minimize: false,
   },
-  packageJson["element-theme-plus"]
+  packageJson["et-plus"]
 );
 
 export const themePath = resolve(
