@@ -34,7 +34,7 @@ npm i et-plus -D
 
 ```json
 {
-  "et-plus": {
+  "etPlus": {
     "outFolderPath": "./theme",
     "localVarsPath": "./element-variables.scss",
     "elementTheme": "element-plus/packages/theme-chalk/",

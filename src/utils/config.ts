@@ -2,7 +2,7 @@ import { resolve } from "path";
 
 interface IPackageJson {
   readonly version: string;
-  readonly "element-theme-plus": object;
+  readonly etPlus: IConfig;
 }
 
 export interface IConfig {
@@ -25,7 +25,7 @@ const config: IConfig = Object.assign(
     elementTheme: "element-plus/packages/theme-chalk/",
     minimize: false,
   },
-  packageJson["et-plus"]
+  packageJson["etPlus"]
 );
 
 export const themePath = resolve(
